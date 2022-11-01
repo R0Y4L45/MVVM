@@ -1,6 +1,6 @@
-﻿using WPF_HomeWork_14__MVVM_.Models;
+﻿using MVVM.Models;
 
-namespace WPF_HomeWork_14__MVVM_.Repository.Abstracts;
+namespace MVVM.Repository.Abstracts;
 
 public interface ICarRepository : IRepository<Car>
 {

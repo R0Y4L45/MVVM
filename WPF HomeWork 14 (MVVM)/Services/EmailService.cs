@@ -1,4 +1,4 @@
-﻿namespace WPF_HomeWork_14__MVVM_.Services;
+﻿namespace MVVM.Services;
 
 public class EmailService
 {

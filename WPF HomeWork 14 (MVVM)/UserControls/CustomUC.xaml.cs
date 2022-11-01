@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace WPF_HomeWork_14__MVVM_.UserControls;
+namespace MVVM.UserControls;
 
 public partial class CustomUC : UserControl
 {

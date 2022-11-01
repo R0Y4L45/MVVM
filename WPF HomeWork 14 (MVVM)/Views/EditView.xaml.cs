@@ -2,9 +2,9 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
-using WPF_HomeWork_14__MVVM_.Models;
+using MVVM.Models;
 
-namespace WPF_HomeWork_14__MVVM_.Views;
+namespace MVVM.Views;
 
 public partial class EditView : Window, INotifyPropertyChanged
 {

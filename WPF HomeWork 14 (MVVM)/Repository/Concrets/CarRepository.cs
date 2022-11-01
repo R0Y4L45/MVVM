@@ -1,11 +1,11 @@
 ﻿using System.Linq;
 using System;
-using WPF_HomeWork_14__MVVM_.Models;
-using WPF_HomeWork_14__MVVM_.Repository.Abstracts;
-using WPF_HomeWork_14__MVVM_.Repository.Contexts;
+using MVVM.Models;
+using MVVM.Repository.Abstracts;
+using MVVM.Repository.Contexts;
 using System.Collections.Generic;
 
-namespace WPF_HomeWork_14__MVVM_.Repository.Concrets;
+namespace MVVM.Repository.Concrets;
 
 public class CarRepository : ICarRepository
 {

@@ -2,12 +2,12 @@
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Input;
-using WPF_HomeWork_14__MVVM_.Models;
-using WPF_HomeWork_14__MVVM_.Repository.Abstracts;
-using WPF_HomeWork_14__MVVM_.ViewModels.Command;
-using WPF_HomeWork_14__MVVM_.Views;
+using MVVM.Models;
+using MVVM.Repository.Abstracts;
+using MVVM.ViewModels.Command;
+using MVVM.Views;
 
-namespace WPF_HomeWork_14__MVVM_.ViewModels;
+namespace MVVM.ViewModels;
 
 public class MainViewModel : BaseViewModel
 {

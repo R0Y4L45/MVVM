@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace WPF_HomeWork_14__MVVM_.ViewModels.Command;
+namespace MVVM.ViewModels.Command;
 
 public class RelayCommand : ICommand
 {

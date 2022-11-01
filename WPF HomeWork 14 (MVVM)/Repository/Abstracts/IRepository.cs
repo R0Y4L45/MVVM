@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System;
 
-namespace WPF_HomeWork_14__MVVM_.Repository.Abstracts;
+namespace MVVM.Repository.Abstracts;
 
 public interface IRepository<T>
 {

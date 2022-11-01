@@ -1,4 +1,4 @@
-﻿namespace WPF_HomeWork_14__MVVM_.Models;
+﻿namespace MVVM.Models;
 
 public abstract class Entity
 {

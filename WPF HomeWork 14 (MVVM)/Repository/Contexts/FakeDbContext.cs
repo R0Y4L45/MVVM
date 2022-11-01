@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WPF_HomeWork_14__MVVM_.Models;
+using MVVM.Models;
 
-namespace WPF_HomeWork_14__MVVM_.Repository.Contexts;
+namespace MVVM.Repository.Contexts;
 
 public class FakeDbContext
 {

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Input;
-using WPF_HomeWork_14__MVVM_.Repository.Abstracts;
-using WPF_HomeWork_14__MVVM_.Repository.Concrets;
-using WPF_HomeWork_14__MVVM_.ViewModels;
-using WPF_HomeWork_14__MVVM_.Views;
+using MVVM.Repository.Abstracts;
+using MVVM.Repository.Concrets;
+using MVVM.ViewModels;
+using MVVM.Views;
 
-namespace WPF_HomeWork_14__MVVM_;
+namespace MVVM;
 
 public partial class App : Application
 {

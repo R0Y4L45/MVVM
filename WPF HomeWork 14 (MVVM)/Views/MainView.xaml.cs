@@ -1,8 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Input;
-using WPF_HomeWork_14__MVVM_.ViewModels.Command;
+using MVVM.ViewModels.Command;
 
-namespace WPF_HomeWork_14__MVVM_.Views;
+namespace MVVM.Views;
 
 public partial class MainView : Window
 {
