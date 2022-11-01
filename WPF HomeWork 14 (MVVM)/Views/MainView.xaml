@@ -1,0 +1,28 @@
+﻿<Window x:Class="WPF_HomeWork_14__MVVM_.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HomeWork_14__MVVM_.Views"
+        xmlns:ViewModels="clr-namespace:WPF_HomeWork_14__MVVM_.ViewModels"
+        mc:Ignorable="d"
+        Title="Lesson-MVVM" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+
+    <StackPanel Width="330">
+        <ComboBox DisplayMemberPath="Model" SelectedItem="{Binding SelectedCar}" ItemsSource="{Binding Cars}"></ComboBox>
+
+        <TextBlock Text="Make"></TextBlock>
+        <TextBlock Text="{Binding SelectedCar.Make}"></TextBlock>
+        <TextBlock Text="Model"></TextBlock>
+        <TextBlock Text="{Binding SelectedCar.Model}"></TextBlock>
+        <TextBlock Text="Year"></TextBlock>
+        <TextBlock Text="{Binding SelectedCar.Year}"></TextBlock>
+        
+        <StackPanel Orientation="Horizontal">
+            <Button Command="{Binding AddCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" FontSize="26" Margin="5" Content="Add"></Button>
+            <Button Command="{Binding ShowCommand}" CommandParameter="{Binding SelectedCar}" FontSize="26" Margin="5" Content="Show"></Button>
+            <Button Command="{Binding EditCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" FontSize="26" Margin="5" Content="Edit"></Button>
+            <Button Command="{Binding DeleteCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" FontSize="26" Margin="5" Content="Delete"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
