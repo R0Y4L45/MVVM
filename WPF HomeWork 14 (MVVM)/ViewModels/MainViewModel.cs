@@ -49,9 +49,6 @@ public class MainViewModel : BaseViewModel
 
     void ExecuteEditCommand(object? parameter)
     {
-        EditView _EditView = new EditView();
-        _EditView.SelectedCar = SelectedCar;
-        _EditView.Show();
     }
 
     bool CanExecuteEditCommand(object? parameter) => SelectedCar is not null;
